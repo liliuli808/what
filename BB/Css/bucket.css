@@ -1,0 +1,81 @@
+body{
+	background-color: #f5f8f9;
+}
+#page-title-panel{
+	position: relative;
+	border-bottom-width: 0;
+}
+#page-container{
+	padding-top: 0;
+}
+#bucket-panel{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	background-color: white;
+}
+#bucket-panel .row{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+#bucket-panel .row:last-child{
+	border-bottom-width: 0;
+}
+.bucket-label{
+	font-size: 0.9rem;
+}
+#bucket-save{
+	float: left;
+    width: 86%;
+    margin: 1rem 7%;
+    background-color: #58a4ff;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.3rem;
+}
+.bucket-value{
+	text-indent: 1rem;
+}
+#bucket-operator{
+	float: right;
+	/*width: 6rem;*/
+	/*height: 2.5rem;*/
+}
+#bucket-operator *{
+	float: left;
+}
+#bucket-operator span{
+	width: 1.5rem;
+	text-align: center;
+	line-height: 2.5rem;
+	text-indent: 0;
+}
+#bucket-operator i.fa-minus{
+	font-size: 0.9rem;
+	text-indent: 0;
+	line-height: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-top: 0.5rem;
+	text-align: center;
+	border: 1px solid #a1a2a3;
+	color: #58a4ff;
+	border-radius: 50%;
+	box-sizing: content-box;
+}
+#bucket-operator i.fa-plus{
+	font-size: 0.9rem;
+	text-indent: 0;
+	line-height: 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-top: 0.5rem;
+	text-align: center;
+	background-color: #58a4ff;
+	color: white;
+	border-radius: 50%;
+	box-sizing: content-box;
+}

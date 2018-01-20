@@ -1,0 +1,76 @@
+body{
+	background-color: #f5f8f9;
+}
+#ticket-slide-panel{
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 0.9rem;
+	color: #666666;
+}
+.ticket-slide-item{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+#ticket-container-panel{
+	float: left;
+	width: 100%;
+	padding-bottom: 3rem;
+}
+.ticket-slide-item-active{
+	color: #58a4ff;
+	border-bottom: 0.1rem solid #58a4ff;
+	box-sizing: border-box;
+}
+.ticket-slide-conta{
+	float: left;
+	width: 100%;
+	display: none;
+}
+.ticket-slide-conta-active{
+	display: block;
+}
+
+#order-info-panel{
+	float: left;
+	width: 100%;
+	/*padding: 0 4%;*/
+	background-color: white;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	color: #666666;
+}
+.order-row{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+
+.ticke-goods-item{
+	float: left;
+	width: 94%;
+	padding: 0 3% 0 3%;
+  padding: 0.5rem 3%;
+	background-color: white;
+	line-height: 1.4rem;
+	margin-bottom: 0.3rem;
+}
+.panal-w{
+	height: 3.2rem;
+	background: #fff;
+	margin-bottom: 0.3rem;
+	padding-top: 0.8rem;
+}
+.ticket-slide-item1{
+	text-align: center;
+}
+.fa-a{
+	font-size: 0.7rem;
+}
+.blue{
+	color: #58a4ff;
+}
+.red{
+	color: red;
+}

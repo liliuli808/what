@@ -1,0 +1,51 @@
+body {
+    background-color: #f5f8f9;
+}
+#order-ticket-panel{
+
+}
+.ticket-item {
+    float: left;
+    width: 88%;
+    margin: 0.5rem 3% 0 3%;
+    padding: 0.5rem 3%;
+    background-color: white;
+	border: 1px solid white;
+    line-height: 1.4rem;
+}
+.user-ticket-img {
+    position: relative;
+    margin: 0 auto;
+    width: 3rem;
+    height: 4rem;
+}
+.ticket-goods-name, .ticket-num-span {
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    height: 1.4rem;
+}
+.ticket-num {
+    float: right;
+    width: 3rem;
+    height: 3rem;
+    font-size: 0.9rem;
+    margin-top: -3.5rem;
+}
+.ticket-unavaliabe{
+	color: lightgray;
+}
+.ticket-selected{
+	/*box-sizing: border-box;*/
+	border: 1px solid #58a4ff;
+}
+#order-ticket-finish-panel{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 3rem;
+    color: white;
+    text-align: center;
+    background-color: #58a4ff;
+    width: 100%;
+    line-height: 3rem;
+}

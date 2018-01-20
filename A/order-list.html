@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/order-list.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+    <div id="page-title-panel">
+        <div class="col-8-1">
+            <i class="fa fa-angle-left data-url" id="page-back" data-url="user-center.html"></i>
+        </div>
+        <div class="col-8-6" id="page-title">我的订单</div>
+        <div class="col-8-1"></div>
+    </div>
+    <div id="order-slide-panel" class="row">
+        <div class="col-2-1 order-slide-item order-slide-item-active">正在进行</div>
+        <div class="col-2-1 order-slide-item">已完成</div>
+    </div>
+    <div id="order-container-panel" class="row">
+        <div class="row order-slide-container order-slide-container-active">
+            <!-- <div class="order-item">
+                <div class="order-row row">
+                    <div class="col-10-3 order-label">订单号</div>
+                    <div class="col-10-7 order-value">
+                        <span>B2C201706131234</span>
+                        <span><i class="fa fa-angle-right"></i></span>
+                    </div>
+                </div>
+                <div class="order-row row">
+                    <div class="col-10-3 order-label">支付方式</div>
+                    <div class="col-10-7 order-value">
+                        <span>现金支付</span>
+                        <span>未支付</span>
+                    </div>
+                </div>
+                <div class="order-row row">
+                    <div class="col-10-3 order-label">下单时间</div>
+                    <div class="col-10-7 order-value">
+                        <span>06/13 12:13</span>
+                        <span>1小时内送达</span>
+                    </div>
+                </div>
+                <div class="order-content">
+                    <div class="goods-img col-5-1">
+                        <img src="./Images/nav-1.png">
+                    </div>
+                    <div class="goods-name col-2-1">乐百氏桶装水</div>
+                    <div class="goods-num col-10-1">x1</div>
+                    <div class="goods-subtotal col-5-1">¥24.99</div>
+                </div>
+                <div class="order-row row order-operate">
+                    <div class="col-10-3 order-label">订单价格</div>
+                    <div class="col-10-7 order-value">
+                        <span class="col-3-1">¥150.99</span>
+                        <span class="col-3-1"><span>取消订单</span></span>
+                        <span class="col-3-1"><span>去支付</span></span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="row order-slide-container"></div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="./Js/order-list.js"></script>
+</html>

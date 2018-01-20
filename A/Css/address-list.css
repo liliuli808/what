@@ -1,0 +1,61 @@
+body{
+	background-color: #f5f8f9;
+}
+#address-panel{
+	float: left;
+	margin-bottom: 5rem;
+}
+.address-item{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	font-size: 0.9rem;
+	background-color: white;
+	margin-bottom: 0.2rem;
+	color: #a1a2a3;
+}
+.address-item i{
+	margin-right: 0.3rem;
+	color: #a1a2a3;
+	float: left;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1.6rem;
+}
+.address-operate i{
+	line-height: 2.4rem;
+}
+.address-info{
+	width: 100%;
+	float: left;
+	padding: 0.8rem 0;
+	border-bottom: 1px solid #f1f2f3;
+}
+.address-info .row:nth-child(1){
+	color: #383838;
+	line-height: 1.6rem;
+}
+.address-info .row:nth-child(2){
+	line-height: 1.4rem;
+}
+.address-operate{
+	float: left;
+	line-height: 2.4rem;
+	height: 2.4rem;
+}
+.address-default{
+	color: #58a4ff;
+}
+#no-address{
+	float: left;
+	width: 100%;
+	height: 10rem;
+	margin-top: 5rem;
+}
+#no-address img{
+	position: relative;
+	left: 50%;
+	margin-left: -5rem;
+	width: 10rem;
+	height: 10rem;
+}

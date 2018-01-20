@@ -1,0 +1,445 @@
+[ 2018-01-17T13:15:38+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+
+[ 2018-01-17T13:15:45+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+
+[ 2018-01-17T13:15:50+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0660s ]
+
+[ 2018-01-17T13:16:29+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0650s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0660s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='0.0.0.0',`last_login_time`='2018-01-17 13:16:29',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0670s ]
+
+[ 2018-01-17T16:45:48+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0690s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T16:46:37+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0660s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T16:47:59+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T16:49:54+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0710s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:07:08+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.3610s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0610s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='0.0.0.0',`last_login_time`='2018-01-17 17:07:08',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0640s ]
+
+[ 2018-01-17T17:23:46+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0620s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0660s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:24:14+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:24:20+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0700s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:24:32+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0690s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:24:37+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0700s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:24:53+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0670s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0700s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:25:01+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0690s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:26:19+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0640s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:26:51+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0630s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:27:50+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:30:21+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0680s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:36:39+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0610s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0650s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:36:44+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0640s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:37:15+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0690s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:37:30+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0700s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:38:53+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0680s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:39:28+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0680s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:40:13+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0610s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:40:28+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0700s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+
+[ 2018-01-17T17:43:04+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0660s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0700s ]
+NOTIC: [2] Illegal string offset 'url' D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+NOTIC: [2] Illegal string offset 'url' D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+NOTIC: [2] Illegal string offset 'referer' D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+NOTIC: [2] Illegal string offset 'state' D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 23 行.
+
+[ 2018-01-17T17:45:52+08:00 ] ::1 /htdocs/index.php?g=&m=Order&a=getAllStation
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002001s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `yds_station` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `yds_station`  [ RunTime:0.0660s ]
+NOTIC: [8] Undefined index: url D:\wamp64\www\htdocs\application\Common\Controller\AppframeController.class.php 第 22 行.
+

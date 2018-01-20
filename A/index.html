@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>首页</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/index.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+	<div id="carousel-container" class="horizontal-scroll-wrap">
+		<div class="horizontal-scroll-container" id="index-carousel">
+			<a href="#" class="index-carousel-item">
+				<img src="./Images/loading.gif" />
+			</a>
+		</div>
+	</div>
+	<div id="index-navigation">
+        <div class="col-4-1 data-url" data-url="quick-order.html">
+            <img src="./Images/1.jpg" class="index-img">
+        </div>
+        <div class="col-4-1  data-url" data-url="mall-index.html">
+            <img src="./Images/2.jpg" class="index-img">
+        </div>
+        <div class="col-4-1  data-url" data-url="ticket-goods.html#from=index.html">
+            <img src="./Images/3.jpg" class="index-img">
+        </div>
+        <div class="col-4-1 data-url" data-url="ticket-goods.html#index=1&from=index.html">
+            <img src="./Images/4.jpg" class="index-img">
+        </div>
+
+	</div>
+	<div id="index-middle-hr">
+		<img src="./Images/index-middle.png">
+	</div>
+	<div id="index-goods-container">
+		<div id="index-goods-cates" class="horizontal-scroll-wrap">
+			<div class="horizontal-scroll-container"></div>
+		</div>
+		<div id="index-cate-goods-container"></div>
+	</div>
+</div>
+<div id="cart-img-btn">
+    <img src="./Images/shopcar.png" alt="">
+    <span>0</span>
+</div>
+<div id="cart-panel-mask">
+	<div id="cart-panel-window">
+		<div id="cart-panel-title">
+			<span id="cart-truncate"><i class="fa fa-trash"></i>清空全部</span>
+		</div>
+		<div id="cart-panel-goods">
+			<div class="cart-panel-goods-item">
+				<div class="cart-goods-name">aaaaaaaaa</div>
+				<div class="cart-goods-subtotal">299.30</div>
+				<div class="cart-goods-operate">
+					<i class="fa fa-plus" data-gid="0"></i>
+					<span class="goods-num" data-gid="0">0</span>
+					<i class="fa fa-minus" data-gid="0"></i>
+				</div>
+			</div>
+		</div>
+		<div id="cart-panel-bottom">
+			<div id="cart-panel-total">总计：<span></span></div>
+			<div id="cart-panel-go-pay">去结算</div>
+		</div>
+	</div>
+</div>
+<a href="user-center.html">
+	<div id="index-top-user">
+    	<img src="./Images/user.png" alt="">
+	</div>
+</a>
+<div id="index-top-user-position">
+	<i class="fa fa-map-marker"></i>
+	<span>正在定位...</span>
+</div>
+<div id="allmap"></div>
+</body>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/Carousel.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Cart.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=B1fe242ae7bea1edfd0a8d3b39d291eb"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="./Js/index.js"></script>
+</html>

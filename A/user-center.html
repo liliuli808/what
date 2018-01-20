@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/user-center.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+    <div id="page-title-panel">
+        <div class="col-8-1">
+            <i class="fa fa-angle-left data-url" id="page-back" data-url="index.html"></i>
+        </div>
+        <div class="col-8-6" id="page-title">个人中心</div>
+        <div class="col-8-1"></div>
+    </div>
+    <div id="user-info-panel" class="row">
+    	<div class="col-3-1" id="user-img">
+    		<img id="user-image" src="./Images/user-default.png">
+    	</div>
+    	<div class="col-3-2" id="user-info">
+    		<div class="row" id="user-name" style="overflow: hidden;height:25px;">&nbsp;</div>
+    		<div class="row">积分：<span id="user-integral">0</span></div>
+    	</div>
+    </div>
+    <div id="user-navigation-panel">
+    	<div class="user-navigation-item data-url" data-url="order-list.html">
+    		<img src="./Images/u-nav-1.png">
+    		<span>我的订单</span>
+    	</div>
+		<div class="user-navigation-item data-url" data-url="address-list.html">
+			<img src="./Images/u-nav-2.png">
+			<span>我的地址</span>
+		</div>
+    	<div class="user-navigation-item data-url" data-url="ticket-goods.html#index=1&from=user-center.html">
+    		<img src="./Images/u-nav-3.png">
+    		<span>我的水票</span>
+    	</div>
+    	<!--<div class="user-navigation-item data-url" data-url="bucket.html">-->
+    		<!--<img src="./Images/u-nav-4.png">-->
+    		<!--<span>我的水桶</span>-->
+    	<!--</div>-->
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="./Js/user-center.js"></script>
+</html>

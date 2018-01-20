@@ -1,0 +1,132 @@
+body{
+	background-color: #f5f8f9;
+	padding-bottom: 3rem;
+}
+#page-container{
+	padding-bottom: 3rem;
+}
+.order-detail-hr{
+	float: left;
+	width: 92%;
+	padding: 0.5rem 4%;
+	line-height: 1.0rem;
+	font-size: 0.9rem;
+}
+#order-info-panel{
+	float: left;
+	width: 92%;
+	padding: 0 4%;
+	background-color: white;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	color: #666666;
+}
+.order-row{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+#order-info-panel .order-row:last-child{
+	border-bottom-width: 0;
+}
+.order-value span:nth-child(1){
+	float: left;
+}
+.order-value span:nth-child(2){
+	float: right;
+}
+#order-comment{
+	height: auto;
+}
+#order-comment .order-row .order-value{
+	height: auto;
+}
+#order-comment .order-value span:nth-child(1){
+	float: left;
+	width: 100%;
+	line-height: 1.5rem;
+	padding: 0.5rem 0;
+}
+
+#order-detail-goods-panel{
+	float: left;
+	width: 92%;
+	padding: 0 4%;
+	background-color: white;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	color: #666666;
+}
+.order-detail-goods-item{
+	float: left;
+	width: 100%;
+}
+#order-detail-goods-panel .order-row:last-child{
+	border-bottom-width: 0;
+}
+#order-detail-goods-panel .order-value span{
+	text-align: right;
+	float: left;
+	width: 100%;
+}
+.goods-img img{
+	height: 2.4rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	max-width: 80%;
+}
+
+.goods-num, .goods-subtotal{
+	font-size: 0.9rem;
+	color: #666666;
+	line-height: 3rem;
+	overflow: hidden;
+	height: 3rem;
+	overflow-x: auto;
+	text-align: right;
+} 
+.goods-num{
+	text-align: center;
+}
+.goods-name{
+	margin: 0.9rem 0;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	overflow-x: auto;
+}
+#order-detail-address-panel{
+	float: left;
+	width: 92%;
+	padding: 0.6rem 4%;
+	background-color: white;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	color: #666666;
+}
+#order-detail-address-panel i{
+	float: left;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.3rem;
+}
+#order-detail-deliver-panel{
+	float: left;
+	width: 92%;
+	padding: 0 4%;
+	background-color: white;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	color: #666666;
+	margin-bottom: 3rem;
+}
+#deliver-hr, #order-detail-deliver-panel{
+	display: none;
+}
+#order-detail-deliver-panel .order-row:last-child{
+	border-bottom-width: 0;
+}
+#api-order-price{
+	color: red;
+}
+

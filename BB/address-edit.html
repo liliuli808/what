@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>编辑地址</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/address-edit.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+    <div id="page-title-panel">
+        <div class="col-8-1">
+            <i class="fa fa-angle-left data-url" id="page-back" data-url="address-list.html"></i>
+        </div>
+        <div class="col-8-6" id="page-title">编辑地址</div>
+        <div class="col-8-1"></div>
+    </div>
+    <div id="address-form">
+        <div class="row">
+            <div class="col-10-3 address-label">联系人</div>
+            <div class="col-10-7 address-value"><input id="address-name" /></div>
+        </div>
+        <div class="row">
+            <div class="col-10-3 address-label">联系电话</div>
+            <div class="col-10-7 address-value">
+                <input id="address-tel" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10-3 address-label">收货地址</div>
+            <div class="col-10-7 address-value">
+                <!-- <div id="address-addr-span" contenteditable="true">您的地址</div> -->
+                <!-- <input id="address-addr" placeholder="您的地址" /> -->
+                <textarea id="address-addr"></textarea>
+                <div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10-3 address-label">详细地址</div>
+            <div class="col-10-7 address-value"><span id="address-detail" contenteditable="true"></span></div>
+        </div>
+    </div>
+    <div id="address-save">确认</div>
+</div>
+</body>
+<div id="l-map"></div>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=B1fe242ae7bea1edfd0a8d3b39d291eb"></script>  
+<script type="text/javascript" src="./Js/address-edit.js"></script>
+</html>

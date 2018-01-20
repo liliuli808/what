@@ -1,0 +1,124 @@
+body{
+	background-color: #f5f8f9;
+}
+#order-slide-panel{
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 0.9rem;
+	color: #666666;
+}
+.order-slide-item{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.order-slide-item-active{
+	color: #58a4ff;
+	border-bottom: 0.1rem solid #58a4ff;
+	box-sizing: border-box;
+}
+.order-slide-container{
+	display: none;
+	padding-bottom: 2rem;
+}
+.order-slide-container-active{
+	display: block;
+}
+.order-item{
+	float: left;
+    width: 92%;
+    padding: 0 2%;
+    font-size: 0.9rem;
+    color: #666666;
+    background-color: white;
+    margin: 0.3rem 2%;
+    border-radius: 0.3rem;
+}
+.order-row{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+.order-item .order-row:last-child{
+	border-top: 1px solid #f1f2f3;
+	border-bottom-width: 0;
+}
+.order-label, .order-value{
+	height: 2.5rem;
+}
+.order-value span:nth-child(1){
+	float: left;
+}
+.order-value span:nth-child(2){
+	float: right;
+}
+.goods-img img{
+	height: 2.4rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	max-width: 80%;
+}
+
+.goods-num, .goods-subtotal{
+	font-size: 0.9rem;
+	color: #666666;
+	line-height: 3rem;
+	overflow: hidden;
+	height: 3rem;
+	overflow-x: auto;
+	text-align: right;
+} 
+.goods-num{
+	text-align: center;
+}
+.goods-name{
+	height: 1.2rem;
+	margin: 0.9rem 0;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	overflow-x: auto;
+}
+.order-operate{
+	height: 3rem;
+	line-height: 3rem;
+}
+.order-operate .order-value>span:nth-child(1){
+	float: left;
+	color: #e73b3e;
+}
+.order-operate .order-value>span:nth-child(2){
+	float: left;
+	font-size: 0.9rem;
+}
+.order-operate .order-value>span:nth-child(2) span{
+	line-height: 1.4rem;
+	margin-top: 0.6rem;
+	padding: 0.2rem;
+	margin-top: 0.6rem;
+	border: 1px solid #666666;
+	border-radius: 0.2rem;
+}
+.order-operate .order-value>span:nth-child(3){
+	float: right;
+}
+.order-operate .order-value>span:nth-child(3) span{
+	float: right;
+	line-height: 1.4rem;
+	margin-top: 0.6rem;
+	padding: 0.2rem 0.5rem;
+	margin-top: 0.6rem;
+	color: #58a4ff;
+	border: 1px solid #58a4ff;
+	border-radius: 0.2rem;
+}
+
+
+
+
+
+
+
+
+

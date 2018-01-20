@@ -1,0 +1,70 @@
+#page-title-panel{
+	position: relative;
+	border-bottom-width: 0;
+}
+#page-container{
+	padding-top: 0;
+}
+#user-info-panel{
+	margin-top: -5px;
+	padding: 2rem 0;
+	background-color: #58a4ff;
+}
+#user-img{
+	height: 4rem;
+}
+#user-img img{
+	float: right;
+	margin-right: 0.8rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	border: 0.25rem solid #81c4fc;
+	border-radius: 2rem;
+
+}
+#user-info{
+	padding: 0.6rem 0;
+	font-size: 0.9rem;
+	color: white;
+	line-height: 1.4rem;
+}
+#user-navigation-panel{
+	padding: 2rem 5%;
+	width: 90%;
+	overflow: hidden;
+}
+
+.user-navigation-item{
+	float: left;
+	width: 47%;
+	height: 8rem;
+	border: 1px solid #f1f2f3;
+	box-sizing: border-box;
+	border-radius: 0.8rem;
+	box-shadow: 0 0 5px #d1d2d3;
+}
+#user-navigation-panel .user-navigation-item:nth-child(1), #user-navigation-panel .user-navigation-item:nth-child(3){
+	margin-right: 6%;
+}
+#user-navigation-panel .user-navigation-item:nth-child(3), #user-navigation-panel .user-navigation-item:nth-child(4){
+	margin-top: 1rem;
+}
+.user-navigation-item img{
+	position: relative;
+	width: 4.6rem;
+	height: 4.6rem;
+	margin-top: 1rem;
+	left: 50%;
+	margin-left: -2.3rem;
+}
+.user-navigation-item span{
+	float: left;
+	bottom: 1rem;
+	left: 0;
+	width: 100%;
+	line-height: 1.4rem;
+	font-size: 0.9rem;
+	text-align: center;
+	color: #888888;
+}
+

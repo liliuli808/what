@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>订单详情</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/deliver-order-detail.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+    <div id="page-title-panel">
+        <div class="col-8-1">
+            <i class="fa fa-angle-left data-url" id="page-back" data-url="deliver-order-list.html"></i>
+        </div>
+        <div class="col-8-6" id="page-title">订单详情</div>
+        <div class="col-8-1">
+            <span style="width: 5rem;float: left;margin-left: -2rem;" class="data-url" data-url="deliver-order-list.html">我的配送</span>
+        </div>
+    </div>
+    <div id="order-panel">
+        <div class="order-info-hr">用户信息</div>
+        <div id="order-address-panel">
+            <div class="row">
+                <div class="col-10-3"><i class="fa fa-user"></i><span id="api-address-name"></span></div>
+                <div class="col-5-3"><i class="fa fa-phone"></i><span id="api-address-tel"></span></div>
+            </div>
+            <div class="row"><i class="fa fa-map-marker"></i><span id="api-address-detail"></span></div>
+        </div>
+        <div class="order-info-hr">订单信息 <span id="order-status"></span></div>
+        <div id="order-info-panel">
+            <div class="row">
+                <div class="order-label">订单编号</div>
+                <div class="order-value" id="api-order-sn"></div>
+            </div>
+            <div class="row">
+                <div class="order-label">订单金额</div>
+                <div class="order-value api-order-price" style="color: red;"></div>
+            </div>
+            <div class="row">
+                <div class="order-label">下单时间</div>
+                <div class="order-value" id="api-create-time">2017-06-19 12:12:12</div>
+            </div>
+            <div class="row">
+                <div class="order-label">配送时间</div>
+                <div class="order-value">1小时以内</div>
+            </div>
+            <div class="row">
+                <div class="order-label">支付方式</div>
+                <div class="order-value" id="api-pay-type">线下支付</div>
+            </div>
+            <div class="row">
+                <div class="order-label">备注</div>
+                <div class="order-value" id="order-comment"></div>
+            </div>
+        </div>
+        <div class="order-info-hr">商品信息</div>
+        <div id="order-goods-info">
+            <div id="bucket-panel">
+                <div class="order-label">押桶</div>
+                <div class="order-value">
+                    <span style="float: left;" id="api-bucket-num"></span>
+                    <span style="float: right;color: red;" id="api-bucket-price"></span>
+                </div>
+            </div>
+            <div id="order-price-panel">
+                <div class="order-label">合计</div>
+                <div class="order-value api-order-price" id="order-price"></div>
+            </div>
+        </div>
+        <div class="order-info-hr" id="order-deliver-info-hr">配送信息</div>
+        <div id="order-deliver-panel">
+            <div class="row">
+                <div class="order-label">配送人</div>
+                <div class="order-value">
+                    <span id="api-deliver-name"></span>
+                    <!-- <span id="api-deliver-tel"></span> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="order-label">抢单时间</div>
+                <div class="order-value" id="api-deliver-accepttime"></div>
+            </div>
+        </div>
+
+
+        <div id="shows">
+            <div data-role="controlgroup" id="btnGroupss" data-type="vertical">
+                输入配送码:<input type="text" value="" id='sendsCode'>
+            </div>
+            <div class="ui-grid-a"> 
+              <div class="ui-block-a"> 
+                <a name="yes" id="send_codes" data-role="button">确认</a> 
+              </div> 
+              <div class="ui-block-b"> 
+                <a data-role="button" id="cancelBtnPage">取消</a> 
+              </div> 
+            </div> 
+        </div>
+        <div id="bgs"></div>
+    </div>
+    <div id="order-accept-btn"><span>我要接单</span></div>
+    <div id="order-finish-btn"><span>确认送达</span></div> 
+</div>
+</body>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="./Js/deliver-order-detail.js"></script>
+</html>

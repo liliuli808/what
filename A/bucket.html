@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>我的水桶</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/bucket.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+    <div id="page-title-panel">
+        <div class="col-8-1">
+            <i class="fa fa-angle-left data-url" id="page-back" data-url="user-center.html"></i>
+        </div>
+        <div class="col-8-6" id="page-title">我的水桶</div>
+        <div class="col-8-1"></div>
+    </div>
+    <div id="bucket-panel">
+        <div class="row">
+            <div class="col-5-1 bucket-label">水桶个数</div>
+            <div class="col-5-4 bucket-value" id="api-bucket-num"></div>
+        </div>
+        <div class="row">
+            <div class="col-5-1 bucket-label">可退金额</div>
+            <div class="col-5-4 bucket-value" id="api-bucket-price"></div>
+        </div>
+        <div class="row">
+            <div class="col-5-1 bucket-label">退桶数量</div>
+            <div class="col-5-4 bucket-value">
+                <div id="bucket-operator">
+                    <i class="fa fa-minus"></i>
+                    <span id="bucket-num">0</span>
+                    <i class="fa fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bucket-save">确认</div>
+</div>
+</body>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="./Js/bucket.js"></script>
+</html>

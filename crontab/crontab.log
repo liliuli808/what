@@ -1,0 +1,11 @@
+# 每分钟检测一次《微信支付，未支付，且超时的订单，回滚到“关闭”状态》
+*/1 * * * * /usr/bin/python /alidata/www/standard/crontab/python/wechat_unpay_order_callback.py >> /alidata/www/standard/crontab/log/wechat_unpay_order_callback.log
+*/1 * * * * /usr/bin/python /alidata/www/yds_online/crontab/python/wechat_unpay_order_callback.py >> /alidata/www/yds_online/crontab/log/wechat_unpay_order_callback.log
+
+# 每10分钟删除一下wechat access token,
+*/10 * * * * echo 'update `yds_standard`.`yds_wechat_access_token` set expire_time=expire_time-7200 order by id desc limit 1;' | mysql -u root -p1734388781 -A yds_standard
+*/10 * * * * echo 'update `yds_online`.`yds_wechat_access_token` set expire_time=expire_time-7200 order by id desc limit 1;' | mysql -u root -p1734388781 -A yds_online
+
+# 每分钟检测一次系统错误
+*/1 * * * * /usr/bin/python /alidata/www/standard/crontab/python/error_wechat_msg_warning.py >> /alidata/www/standard/crontab/log/error_wechat_msg_warning.log
+*/1 * * * * /usr/bin/python /alidata/www/yds_online/crontab/python/error_wechat_msg_warning.py >> /alidata/www/yds_online/crontab/log/error_wechat_msg_warning.log

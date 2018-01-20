@@ -1,0 +1,364 @@
+body{
+	background-color: #f5f8f9;
+}
+.order-address-panel{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	background-color: white;
+	margin-bottom: 0.5rem;
+	display: none;
+}
+#no-address-tip{
+	height: 6rem;
+	line-height: 6rem;
+	text-align: center;
+	color: #666666;
+	font-size: 0.9rem;
+}
+#create-address i{
+	float: right;
+	width: 2rem;
+	height: 6rem;
+	line-height: 6rem;
+	text-align: center;
+	color: #666666;
+}
+#order-info-panel{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	background-color: white;
+}
+#order-bucket-panel{
+	float: left;
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	border-bottom: 1px solid #f1f2f3;
+	color: #666666;
+	font-size: 0.9rem;
+}
+#bucket-info{
+	margin-left: 0.5rem;
+	color: #34a1eb;
+}
+#bucket-info i{
+	margin-right: 0.5rem;
+	width: 1rem;
+	height: 1rem;
+}
+#order-total-panel{
+	float: left;
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 0.9rem;
+}
+#order-total-price{
+	color: #e0593a;
+}
+#order-total{
+	float: right;
+}
+#order-comment-panel{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	background-color: white;
+	line-height: 3rem;
+	/*margin-bottom: 0.5rem;*/
+}
+#order-comment{
+	height: auto;
+	margin: 0.8rem 0;
+	line-height: 1.4rem;
+	font-size: 0.9rem;
+	color: #666666;
+}
+#order-deliver{
+	height: 3rem;
+	font-size: 0.9rem;
+	line-height: 3rem;
+	text-align: right;
+	color: #666666;
+}
+.order-label{
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 0.9rem;
+}
+.order-label-operate i{
+	width: 2rem;
+	height: 3rem;
+	float: right;
+	text-align: center;
+	line-height: 3rem;
+	color: #666666;
+}
+#order-deliver-panel{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	background-color: white;
+	line-height: 3rem;
+	height: 3rem;
+	margin-bottom: 0.5rem;
+}
+
+#order-pay-panel{
+	position: fixed;
+	width: 100%;
+	height: 3rem;
+	border-top: 1px solid #f1f2f3;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+	font-size: 1rem;
+}
+#order-pay-info{
+	height: 3rem;
+	line-height: 3rem;
+	text-indent: 0.5rem;
+}
+#order-pay-info span{
+	color: #e0593a;
+}
+#order-pay-btn{
+	height: 3rem;
+	line-height: 3rem;
+	background-color: #58a4ff;
+	color: white;
+	text-align: center;
+}
+#order-pay-btn i{
+	margin-left: 0.5rem;
+}
+#select-address i{
+	float: right;
+	line-height: 2.6rem;
+	width: 2rem;
+	color: #666666;
+	text-align: center;
+}
+
+#order-address-info{
+	font-size: 0.9rem;
+	color: #666666;
+	line-height: 1.6rem;
+	margin: 0.6rem 0;
+}
+#order-address-info .row{
+	line-height: 1.6rem;
+	margin: 0.15rem 0;
+}
+#order-address-info i{
+	float: left;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1.6rem;
+}
+.goods-img img{
+	height: 2.4rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	max-width: 80%;
+}
+
+.goods-num, .goods-subtotal{
+	font-size: 0.9rem;
+	color: #666666;
+	line-height: 3rem;
+	overflow: hidden;
+	height: 3rem;
+	overflow-x: auto;
+	text-align: right;
+} 
+.goods-num{
+	text-align: center;
+}
+.goods-name{
+	margin: 0.9rem 0;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	overflow: hidden;
+	overflow-x: auto;
+}
+.goods-subtotal, .goods-name{
+	color: black;
+}
+#order-bucket-price{
+	text-align: right;
+	color: black;
+}
+#bucket-operate *{
+	float: right;
+}
+#bucket-operate>i{
+	width: 1.2rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	margin: 0.8rem 0;
+	color: #54a0ee;
+	text-align: center;
+	font-size: 0.8rem;
+	border: 1px solid #f1f2f3;
+	border-radius: 100%;
+	font-weight: normal;
+}
+#bucket-num{
+	width: 2rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+}
+
+
+.order-submit-hr{
+	float: left;
+    width: 94%;
+    padding: 0 3%;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.9rem;
+}
+#order-submit-payment-panel{
+	float: left;
+    width: 94%;
+    padding: 0 3%;
+	font-size: 0.9rem;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+.payment-item{
+	float: left;
+	width: 100%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: #666666;
+}
+.payment-item .col-10-1 i{
+	float: right;
+	width: 2rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.payment-item .col-10-9 i{
+	float: left;
+	width: 1rem;
+	margin-right: 0.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.payment-item .col-10-1 .fa-dot-circle-o{
+	color: #58a4ff;
+}
+.payment-item:last-child{
+	border-top: 1px solid #f1f2f3;
+}
+
+#order-ticket-panel{
+	float: left;
+	width: 94%;
+	padding: 0 3%;
+	background-color: white;
+	line-height: 3rem;
+	height: 3rem;
+	margin-bottom: 0.5rem;
+}
+#order-ticket{
+    height: 3rem;
+    font-size: 0.9rem;
+    line-height: 3rem;
+    text-align: right;
+    color: #666666;
+}
+/*.payment-item .col-10-9 i{
+	color: #8adc3e;
+}*/
+.payment-item-unavaliable{
+	color: lightgray;
+}
+.payment-item-unavaliable i{
+	color: lightgray;
+}
+/* 
+ .order-payment-title{
+	float: left;
+    width: 94%;
+    padding: 0 3%;
+	height: 3rem;
+	line-height: 3rem;
+}
+.order-payment-pay{
+	float: left;
+    width: 94%;
+    padding: 0 3%;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+.order-payment-pay .WeChat-content .WeChat-pay:nth-child(1){
+	border-bottom: 1px solid #f1f2f3;
+}
+
+.order-payment-pay .WeChat-content .WeChat-pay{
+	float: left;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #666666;
+    font-size: 0.9rem;
+    justify-content:space-between;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-direction: row;
+}
+.order-payment-pay .WeChat-content .WeChat-pay .P-img:before{
+	content: "";
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	position: relative;
+	top: 0.6rem;
+	margin-right: 0.8rem;
+}
+.order-payment-pay .WeChat-content .WeChat-pay em{
+	font-style: normal;
+	color: #666666;
+}
+.order-payment-pay .WeChat-content:nth-child(1) .WeChat-pay .P-img:before{
+	background: url(../Images/55_03.png) no-repeat;
+	background-size: 100%;
+}
+.order-payment-pay .WeChat-content:nth-child(2) .WeChat-pay .P-img:before{
+	background: url(../Images/55_06.png) no-repeat;
+	background-size: 100%;
+}
+.order-payment-pay .WeChat-content .WeChat-pay i{
+	width: 1.2rem;
+	height: 1.2rem;
+	display: inline-block;
+	background: url(../Images/hh_07.png) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 50%;
+	position: relative;
+    top: 0.9rem;
+}
+.order-payment-pay .WeChat-pay i.button-state{
+	width: 1.2rem;
+	height: 1.2rem;
+	display: inline-block;
+	background: url(../Images/btn_07.png) no-repeat;
+	background-size: 100% 100%;
+	border-radius:50%;
+	position: relative;
+    top: 0.9rem;
+	
+}*/
+

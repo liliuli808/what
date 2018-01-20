@@ -1,0 +1,4 @@
+[ 2018-01-12T12:00:01+08:00 ] 211.144.0.165 /index.php?g=Admin&m=Distribution&a=C_getDistributionList
+ERR: 1305:FUNCTION bdm248126662_db.from_base64 does not exist
+ [ SQL语句 ] : SELECT *,from_base64(nickname) as nickname FROM `yds_wechat_user` ORDER BY deeps asc LIMIT 0,15  
+

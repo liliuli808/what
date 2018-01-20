@@ -1,0 +1,315 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	border: 0;
+	tap-highlight-color: rgba(255,255,255,0);
+	text-size-adjust:none;
+	tap-highlight-color:rgba(255,255,255,0);
+	-webkit-tap-highlight-color: rgba(255,255,255,0);
+	-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+}
+img{
+	max-width: 100%;
+}
+.row{
+	float: left;
+	width: 100%;
+}
+.col-2-1{
+	float: left;
+	width: 50%;
+}
+.col-3-1{
+	float: left;
+	width: 33.33%;
+}
+.col-3-2{
+	float: left;
+	width: 66.66%;
+}
+.col-4-1{
+	float: left;
+	width: 25%;
+}
+.col-4-3{
+	float: left;
+	width: 75%;
+}
+.col-5-1{
+	float: left;
+	width: 20%;
+}
+.col-5-2{
+	float: left;
+	width: 40%;
+}
+.col-5-3{
+	float: left;
+	width: 60%;
+}
+.col-5-4{
+	float: left;
+	width: 80%;
+}
+.col-8-1{
+	float: left;
+	width: 12.5%;
+}
+.col-8-1-offset{
+	margin-left: 12.5%;
+}
+.col-8-3{
+	float: left;
+	width: 37.5%;
+}
+.col-8-4{
+	float: left;
+	width: 50%;
+}
+.col-8-5{
+	float: left;
+	width: 62.5%;
+}
+.col-8-6{
+	float: left;
+	width: 75%;
+}
+.col-10-1{
+	float: left;
+	width: 10%;
+}
+.col-10-2{
+	float: left;
+	width: 20%;
+}
+.col-10-3{
+	float: left;
+	width: 30%;
+}
+.col-10-6{
+	float: left;
+	width: 60%;
+}
+.col-10-7{
+	float: left;
+	width: 70%;
+}
+.col-10-9{
+	float: left;
+	width: 90%;
+}
+.col-20-3{
+	float: left;
+	width: 15%;
+}
+#page-container{
+	max-width: 768px;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+#page-title-panel{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 3rem;
+	background-color: #58a4ff;
+	line-height: 3rem;
+	color: white;
+	z-index: 999;
+}
+#page-title-panel a{
+	color: white;
+}
+#page-title{
+	text-align: center;
+}
+#page-back{
+	width: 2rem;
+	height: 3rem;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1.4rem;
+	font-weight: bolder;
+}
+#carousel-container{
+	float: left;
+	width: 100%;
+}
+.horizontal-scroll-wrap {
+    background-color: rgba(0,0,0,0.8);
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll; /* 1 */
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-overflow-scrolling: touch; /* 2 */
+    background-color: white;
+    text-align: justify; /* 3 */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+.horizontal-scroll-container > * {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 购物车相关样式（开始） */
+#cart-img-btn{
+	position: fixed;
+	left: 0.5rem;
+	bottom: 0.5rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: rgba(0,145,255,0.5);
+	border-radius: 50%;
+    z-index: 1000;
+}
+.cart-img-btn-hight{
+	bottom: 13.5rem;
+}
+#cart-img-btn img{
+	margin: 0.5rem 0 0 0.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+#cart-img-btn span{
+    min-width: 0.4rem;
+    height: 1rem;
+    padding: 0 0.3rem;
+    position: absolute;
+    top: -0.2rem;
+    right: 0;
+    background: #BF270A;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.6rem;
+    display: none;
+}
+#cart-panel-mask{
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+#cart-panel-window{
+	position: fixed;
+	width: 100%;
+	height: 15rem;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+}
+#cart-panel-title{
+	float: left;
+	width: 100%;
+	height: 2.5rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+#cart-panel-title span{
+	color: #666666;
+	float: right;
+	margin-right: 0.5rem;
+	line-height: 2.5rem;
+	font-size: 0.9rem;
+}
+#cart-panel-title span i{
+	margin-right: 0.5rem;
+}
+#cart-panel-goods{
+	float: left;
+	width: 100%;
+	height: 10rem;
+	overflow: hidden;
+	overflow-y: auto;
+	border-bottom: 1px solid #f1f2f3;
+}
+.cart-panel-goods-item{
+	float: left;
+	margin: 0 2%;
+	width: 96%;
+	line-height: 2rem;
+	font-size: 0.9rem;
+	height: 2rem;
+	border-bottom: 1px solid #fafbfc;
+}
+.cart-goods-name{
+	float: left;
+	width: 54%;
+	overflow: hidden;
+	height: 2rem;
+}
+.cart-goods-subtotal{
+	float: left;
+	width: 23%;
+	overflow: hidden;
+	height: 2rem;
+}
+.cart-goods-operate{
+	float: left;
+	width: 23%;
+	margin-top: 0.3rem;
+	overflow: hidden;
+	height: 2rem;
+}
+.cart-goods-operate *{
+	float: left;
+}
+.cart-goods-operate>i{
+	width: 1.2rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color: #54a0ee;
+	text-align: center;
+	font-size: 0.8rem;
+	border: 1px solid #f1f2f3;
+	border-radius: 100%;
+	font-weight: normal;
+	float: left;
+}
+.cart-goods-operate span{
+	float: left;
+	width: 1.4rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+}
+#cart-panel-bottom{
+	float: left;
+	margin: 0 2%;
+	width: 96%;
+	line-height: 2.5rem;
+	font-size: 0.9rem;
+}
+#cart-panel-total{
+	float: left;
+	width: 50%;
+}
+#cart-panel-go-pay{
+	float: right;
+	width: 3.5rem;
+	margin: 0.3rem 0.6rem;
+    font-size: 0.6rem;
+    background: rgba(250,155,10,0.8);
+    text-align: center;
+    line-height: 1.8rem;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+/* 购物车相关样式（结束） */
+
+
+
+

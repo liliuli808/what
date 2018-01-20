@@ -1,0 +1,224 @@
+body{
+	background-color: #f5f8f9;
+}
+#ticket-slide-panel{
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 0.9rem;
+	color: #666666;
+}
+.ticket-slide-item{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+#ticket-container-panel{
+	float: left;
+	width: 100%;
+	padding-bottom: 3rem;
+}
+.ticket-slide-item-active{
+	color: #58a4ff;
+	border-bottom: 0.1rem solid #58a4ff;
+	box-sizing: border-box;
+}
+.ticket-slide-conta{
+	float: left;
+	width: 100%;
+	display: none;
+}
+.ticket-slide-conta-active{
+	display: block;
+}
+.order-detail-hr{
+	float: left;
+	width: 92%;
+	padding: 0.5rem 4%;
+	line-height: 1.0rem;
+	font-size: 0.9rem;
+}
+#order-info-panel{
+	float: left;
+	width: 100%;
+	/*padding: 0 4%;*/
+	background-color: white;
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	color: #666666;
+}
+.order-row{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+.order-commentt{
+	height: 3rem;
+	line-height: 3rem;
+}
+.order-label-name,.order-valuee{
+	/*height: 2rem;*/
+	line-height: 1.5rem;
+}
+.order-valuee{
+	border-bottom: 1px solid #f1f2f3;
+}
+.Order-money{
+	color: red;
+}
+.send-orders{
+	text-align: right;
+}
+.send-orders .Order-timer-orders{
+	padding: 0.2rem 0.5rem;
+	border: 1px solid #35a8ff;
+	border-radius: 50px;
+	color: #35a8ff;
+}
+
+.send-orders .Order-timer-orders a{
+	text-decoration: none;
+    color: #35a8ff;
+}
+
+#order-info-panel a{
+    text-decoration: none;
+    color: #666666;
+
+}
+
+
+
+
+
+
+
+.ticke-goods-item{
+	float: left;
+	width: 94%;
+	padding: 0 3% 0 3%;
+	/*margin: 0.4rem 3% 0 3%;*/
+	padding: 0.5rem 3%;
+	background-color: white;
+	line-height: 1.4rem;
+	margin-bottom: 0.3rem;
+}
+.order-form{
+	color: #999999;
+	height: 2rem;
+	border-bottom: 1px solid #f5f8f9;
+}
+.order-form .OrderID,.order-form .Order-timer{
+    font-size: 0.8rem;
+}
+.order-form .Order-timer{
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+
+
+.ticket-goods-item .col-4-1 img{
+	position: relative;
+	width: 3.1rem;
+	height: 4.2rem;
+	left: 50%;
+	margin-left: -1.55rem;
+	z-index: 1;
+}
+
+.ticket-goods-item .col-4-3 .row{
+	height: 1.4rem;
+	font-size: 0.9rem;
+}
+.goods-price{
+	font-size: 0.8rem;
+	color: #666666;
+	text-decoration: line-through;
+}
+.goods-strategy{
+	color: #f2001d;
+}
+.goods-sales{
+	color: #666666;
+}
+
+.goods-purchase{
+	float: right;
+	padding: 0.2rem 0.7rem;
+	border-radius: 0.9rem;
+	color: #58a4ff;
+	border: 1px solid #58a4ff;
+	margin-top: -0.4rem;
+}
+.ticket-item{
+	float: left;
+	width: 88%;
+	margin: 0.4rem 3% 0 3%;
+	padding: 0.5rem 3%;
+	background-color: white;
+	line-height: 1.4rem;
+}
+.ticket-item .col-4-1 img{
+	position: relative;
+	width: 3.2rem;
+	height: 4.2rem;
+	left: 50%;
+	margin-left: -2.1rem;
+}
+.ticket-goods-name, .ticket-num-span{
+	line-height: 2.1rem;
+	font-size: 0.9rem;
+	height: 2.1rem;
+}
+.ticket-num-span{
+	float: left;
+	color: #666666;
+}
+.ticket-num{
+	float: right;
+	width: 3rem;
+	height: 3rem;
+	font-size: 0.9rem;
+	margin: 0.5rem;
+}
+.ticket-use{
+	float: right;
+	padding: 0.1rem 0.7rem;
+	border-radius: 0.8rem;
+	color: #58a4ff;
+	border: 1px solid #58a4ff;
+	font-size: 0.8rem;
+	margin-top: 0.6rem;
+}
+.user-ticket-img{
+	position: relative;
+	margin: 0 auto;
+	width: 3rem;
+	height: 4rem;
+}
+.ticket-img-desc{
+	position: relative;
+	background-color: red;
+	color: white;
+	left: 50%;
+	margin-left: -1.55rem;
+	width: 3.1rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	text-align: center;
+	font-size: 0.6rem;
+	margin-top: -1.4rem;
+	z-index: 9999;
+	border-radius: 0.7rem;
+}
+
+.col-10-6-6{
+    float: left;
+    width: 100%;
+}
+.col-5-2-2{
+    float: left;
+    width: 45%;
+}

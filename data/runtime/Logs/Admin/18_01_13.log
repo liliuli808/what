@@ -1,0 +1,315 @@
+[ 2018-01-13T09:45:44+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Deliver&a=C_editDeliverPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000977s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001134s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yds_station_deliver` [ RunTime:0.0016s ]
+SQL: UPDATE `yds_station_deliver` SET `config_id`='6',`name`='徐工',`tel`='13121941498' WHERE `id` = 9 [ RunTime:0.0045s ]
+
+[ 2018-01-13T10:18:51+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:19:19+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add&parentid=194&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:19:25+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:19:27+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:19:40+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:19:43+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:19:55+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:20:27+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:20:30+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:20:49+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001041s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001277s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0019s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: validate /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `yds_menu` WHERE `app` = 'Admin/Order/C_orderList' AND `model` = 'Order' AND `action` = 'C_orderList' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `parentid` FROM `yds_menu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: auto /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `yds_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('0','添加订单','Admin/Order/C_orderList','Order','C_orderList','','','','1','1') [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yds_auth_rule` WHERE `name` = 'admin/order/c_orderlist/order/c_orderlist' LIMIT 1   [ RunTime:0.0018s ]
+SQL: INSERT INTO `yds_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('admin/order/c_orderlist/order/c_orderlist','Admin/Order/C_orderList','admin_url','添加订单') [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yds_menu` WHERE `app` = 'Admin/Order/C_orderList' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0018s ]
+
+[ 2018-01-13T10:20:49+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:21:34+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:21:37+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:21:38+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:21:48+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add&parentid=194&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:22:07+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:22:23+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=add
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:22:26+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:22:42+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add&parentid=194&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:23:10+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001106s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002544s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001187s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0020s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: validate /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `yds_menu` WHERE `app` = 'Admin/Order/C_C_addOrder' AND `model` = 'Order' AND `action` = 'C_orderList' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `parentid` FROM `yds_menu` WHERE `id` = 194 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `parentid` FROM `yds_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: auto /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `yds_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('194','添加订单','Admin/Order/C_C_addOrder','Order','C_orderList','','','','1','1') [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yds_auth_rule` WHERE `name` = 'admin/order/c_c_addorder/order/c_orderlist' LIMIT 1   [ RunTime:0.0017s ]
+SQL: INSERT INTO `yds_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('admin/order/c_c_addorder/order/c_orderlist','Admin/Order/C_C_addOrder','admin_url','添加订单') [ RunTime:0.0016s ]
+SQL: SELECT * FROM `yds_menu` WHERE `app` = 'Admin/Order/C_C_addOrder' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0017s ]
+
+[ 2018-01-13T10:23:10+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:23:14+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:23:24+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=delete&id=264&menuid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001031s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001189s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0020s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yds_menu` WHERE `parentid` = 264 LIMIT 1   [ RunTime:0.0017s ]
+SQL: DELETE FROM `yds_menu` WHERE `id` = 264 [ RunTime:0.0021s ]
+
+[ 2018-01-13T10:23:24+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:23:36+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:24:08+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit&id=195&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:24:15+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit&id=265&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:24:20+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000973s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001121s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0018s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yds_menu` WHERE `id` = 265 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `yds_menu` WHERE `app` = 'Admin' AND `model` = 'Order' AND `action` = 'C_orderList' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2018-01-13T10:24:50+08:00 ] 43.246.229.176 /index.php?g=&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:25:05+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit&id=265&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:25:10+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001059s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002533s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001252s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001316s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0019s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `yds_menu` WHERE `id` = 265 LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: validate /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `yds_menu` WHERE `app` = 'Admin' AND `model` = 'Order' AND `action` = 'C_orderList' LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2018-01-13T10:25:12+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001078s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001350s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0016s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `yds_menu` WHERE `id` = 265 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `yds_menu` WHERE `app` = 'Admin' AND `model` = 'Order' AND `action` = 'C_orderList' LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2018-01-13T10:25:17+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:25:30+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit&id=265&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:25:46+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=delete&id=265&menuid=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000998s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001164s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0018s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yds_menu` WHERE `parentid` = 265 LIMIT 1   [ RunTime:0.0016s ]
+SQL: DELETE FROM `yds_menu` WHERE `id` = 265 [ RunTime:0.0021s ]
+
+[ 2018-01-13T10:25:47+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:25:59+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add&parentid=194&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:26:25+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=add_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001044s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001222s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `yds_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_menu` [ RunTime:0.0018s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `yds_auth_rule` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: validate /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `yds_menu` WHERE `app` = 'Admin' AND `model` = 'Order' AND `action` = 'C_addOrder' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `parentid` FROM `yds_menu` WHERE `id` = 194 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT `parentid` FROM `yds_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: auto /data/home/byu3181120001/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `yds_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('194','添加订单','Admin','Order','C_addOrder','','','','1','1') [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yds_auth_rule` WHERE `name` = 'admin/order/c_addorder' LIMIT 1   [ RunTime:0.0017s ]
+SQL: INSERT INTO `yds_auth_rule` (`name`,`module`,`type`,`title`) VALUES ('admin/order/c_addorder','Admin','admin_url','添加订单') [ RunTime:0.0016s ]
+SQL: SELECT * FROM `yds_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0024s ]
+NOTIC: [2] mkdir(): File exists /data/home/byu3181120001/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2018-01-13T10:26:25+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:27:20+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:27:37+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit&id=195&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T10:27:48+08:00 ] 43.246.229.176 /index.php?g=&m=Menu&a=edit&id=266&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2018-01-13T12:24:14+08:00 ] 43.246.229.176 /index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000922s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001052s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] Undefined index: CONFIG_ID /data/home/byu3181120001/htdocs/application/Common/Controller/AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0017s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0016s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='43.246.229.176',`last_login_time`='2018-01-13 12:24:14',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0018s ]
+
+[ 2018-01-13T12:24:25+08:00 ] 43.246.229.176 /index.php?g=&m=Rbac&a=authorize&id=14
+NOTIC: D方法实例化没找到模型类Common\Model\AuthAccessModel
+
+[ 2018-01-13T18:21:35+08:00 ] 43.246.229.176 /index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000868s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001003s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001061s ]
+NOTIC: [8] Undefined index: CONFIG_ID /data/home/byu3181120001/htdocs/application/Common/Controller/AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0019s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0021s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='43.246.229.176',`last_login_time`='2018-01-13 18:21:35',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0020s ]
+
+[ 2018-01-13T18:26:46+08:00 ] 43.246.229.176 /index.php?g=Admin&m=Distribution&a=C_getDistributionList
+ERR: 1305:FUNCTION bdm248126662_db.from_base64 does not exist
+ [ SQL语句 ] : SELECT *,from_base64(nickname) as nickname FROM `yds_wechat_user` ORDER BY deeps asc LIMIT 0,15  
+

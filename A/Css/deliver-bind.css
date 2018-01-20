@@ -1,0 +1,48 @@
+#page-title-panel{
+	position: relative;
+	border-bottom-width: 0;
+}
+#page-container{
+	padding-top: 0;
+}
+body{
+	background-color: #f5f8f9;
+}
+#deliver-bind-panel{
+	float: left;
+	width: 92%;
+	padding: 0 4%;
+	background-color: white;
+	font-size: 0.9rem;
+	border-bottom: 1px solid #f1f2f3;
+}
+#deliver-bind-panel .row{
+	height: 3rem;
+	line-height: 3rem;
+}
+#deliver-bind-panel .row:nth-child(1){
+	border-bottom: 1px solid #f1f2f3;
+}
+.bind-value{
+	margin-top: 0.8rem;
+	height: 1.4rem;
+	overflow: hidden;
+	color: #999999;
+	line-height: 1.4rem;
+	font-size: 0.9rem;
+}
+#deliver-bind-btn{
+    float: left;
+    width: 86%;
+    margin: 3rem 7%;
+    background-color: #58a4ff;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.3rem;
+}
+#station_id{
+    width: 50%;
+    height: 2rem;
+}

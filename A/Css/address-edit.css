@@ -1,0 +1,116 @@
+body{
+	background-color: #f5f8f9;	
+}
+#address-form{
+	float: left;
+	width: 92%;
+	padding: 0 4%;
+	background-color: white;
+	font-size: 0.9rem;
+}
+#address-form .row{
+	border-bottom: 1px solid #f1f2f3;
+}
+.address-label{
+	line-height: 3rem;
+}
+.address-value{
+	padding: 0.8rem 0;
+	line-height: 1.4rem;
+	color: #666666;
+}
+.address-value span{
+	float: left;
+	width: 100%;
+}
+#address-save{
+	float: left;
+	width: 86%;
+	margin: 1rem 7%;
+	background-color: #58a4ff;
+	color: white;
+	text-align: center;
+	height: 3rem;
+	line-height: 3rem;
+	border-radius: 0.3rem;
+}
+#address-tel, #address-name, #address-addr, #address-detail{
+	float: left;
+	width: 100%;
+	line-height: 1.4rem;
+	font-size: 0.9rem;
+	color: #666666;
+}
+#address-form textarea{
+	height: 2.8rem;
+	resize: none;
+}
+
+#shows{
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 50%;
+    top: 50%;
+    width: 260px;
+    height: 210px;
+    background-color: white;
+    opacity: 1;
+    margin-top: -80px;
+    margin-left: -130px;
+    border-radius: 3px;
+}
+
+#bgs{
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: black;
+}
+#btnGroupss{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+.dizhi{
+    margin-top: 0.5rem;
+    background: #58a4ff;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+}
+#shuizhan{margin-top: 0.2rem;margin-left: 1rem}
+
+#cancelBtnPage{
+    float: left;
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    border-right: 1px solid light#666666;
+    color: #adadad;
+    text-align: center;
+}
+
+.tishi{
+    background: #58a4ff;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #fff;
+}
+.anniu{
+    background: #58a4ff;
+    margin-top: 2rem;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+    color: #fff;
+    width: 50%;
+    margin-left: 4rem;
+}

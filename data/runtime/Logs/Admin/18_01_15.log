@@ -1,0 +1,91 @@
+[ 2018-01-15T09:58:28+08:00 ] 43.246.229.182 /index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001100s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001247s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Undefined index: CONFIG_ID /data/home/byu3181120001/htdocs/application/Common/Controller/AdminbaseController.class.php 第 20 行.
+
+[ 2018-01-15T09:58:33+08:00 ] 43.246.229.182 /index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000873s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001037s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [8] Undefined index: CONFIG_ID /data/home/byu3181120001/htdocs/application/Common/Controller/AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0019s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0018s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='43.246.229.182',`last_login_time`='2018-01-15 09:58:33',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0019s ]
+
+[ 2018-01-15T10:01:42+08:00 ] 43.246.229.182 /index.php?g=Admin&m=Distribution&a=C_getDistributionList
+ERR: 1305:FUNCTION bdm248126662_db.from_base64 does not exist
+ [ SQL语句 ] : SELECT *,from_base64(nickname) as nickname FROM `yds_wechat_user` ORDER BY deeps asc LIMIT 0,15  
+
+[ 2018-01-15T10:03:19+08:00 ] 43.246.229.182 /index.php?g=Admin&m=Distribution&a=C_getDistributionList
+ERR: 1305:FUNCTION bdm248126662_db.from_base64 does not exist
+ [ SQL语句 ] : SELECT *,from_base64(nickname) as nickname FROM `yds_wechat_user` ORDER BY deeps asc LIMIT 0,15  
+
+[ 2018-01-15T12:14:06+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0660s ]
+
+[ 2018-01-15T16:03:15+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.094005s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.119006s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.005000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+
+[ 2018-01-15T16:03:21+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0950s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0650s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0640s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0630s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='0.0.0.0',`last_login_time`='2018-01-15 16:03:21',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0640s ]
+
+[ 2018-01-15T20:44:05+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.003000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0630s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0620s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0620s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='0.0.0.0',`last_login_time`='2018-01-15 20:44:05',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0610s ]
+

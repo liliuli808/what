@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>选择水票</title>
+	<link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="./Css/common.css" type="text/css">
+	<link rel="stylesheet" href="./Css/coupon.css">
+</head>
+<body>
+	<div id="container" class="flex-ver">
+		<header>
+			<i class="fa fa-angle-left" id="page-back"></i>
+            
+            选择水票
+		</header>
+		<div class="main flex-1" id="main">
+
+			<div><!-- 页面上下滑动 -->
+				<div class="select-goods">
+					<div class="select-goods-time select-goods-border flex-hor">
+						<div class="goods-img">
+							<div id="s-showcase">
+					    		<div class="scroller">
+					        		<div class="itbox main">
+					               		<a class="item">
+					                   		<img src="./Images/u-nav-4.png" alt="">
+					                    </a>
+					                </div>
+					        	</div>
+					    	</div>
+						</div>
+						<div class="select-goods-elastic flex-1 flex-hor">
+							<div class="goods-title">
+								<h3>农夫山泉</h3>
+								<span>规格：180L/桶</span>
+							</div>
+
+							<div class="goods-plan">
+								<div class="content">
+							        <div class="cicle">
+							            <div class="bar bar-left">
+							                <div class="bar-left-an"></div>
+							            </div>
+							            <div class="bar bar-right">
+							                <div  class="bar-right-an"></div>
+							            </div>
+							            <div class="tx">0/0</div>
+							        </div>
+							    </div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="select-goods-time flex-hor">
+						<div class="goods-img">
+							<div id="s-showcase">
+					    		<div class="scroller">
+					        		<div class="itbox main">
+					               		<a class="item">
+					                   		<img src="./Images/u-nav-4.png" alt="">
+					                    </a>
+					                </div>
+					        	</div>
+					    	</div>
+						</div>
+						<div class="select-goods-elastic flex-1 flex-hor">
+							<div class="goods-title">
+								<h3>农夫山泉</h3>
+								<span>规格：180L/桶</span>
+							</div>
+
+							<div class="goods-plan">
+								<div class="content">
+							        <div class="cicle">
+							            <div class="bar bar-left">
+							                <div class="bar-left-an"></div>
+							            </div>
+							            <div class="bar bar-right">
+							                <div  class="bar-right-an"></div>
+							            </div>
+							            <div class="tx">0/0</div>
+							        </div>
+							    </div>
+							</div>
+						</div>
+						
+					</div>
+
+					<div class="select-goods-time flex-hor">
+						<div class="goods-img">
+							<div id="s-showcase">
+					    		<div class="scroller">
+					        		<div class="itbox main">
+					               		<a class="item">
+					                   		<img src="./Images/u-nav-4.png" alt="">
+					                    </a>
+					                </div>
+					        	</div>
+					    	</div>
+						</div>
+						<div class="select-goods-elastic flex-1 flex-hor">
+							<div class="goods-title">
+								<h3>农夫山泉</h3>
+								<span>规格：180L/桶</span>
+							</div>
+
+							<div class="goods-plan">
+								<div class="content">
+							        <div class="cicle">
+							            <div class="bar bar-left">
+							                <div class="bar-left-an"></div>
+							            </div>
+							            <div class="bar bar-right">
+							                <div  class="bar-right-an"></div>
+							            </div>
+							            <div class="tx">0/0</div>
+							        </div>
+							    </div>
+							</div>
+						</div>
+						<div class="stratum"></div>
+					</div>
+
+
+
+
+				</div>
+			</div><!-- 页面上下滑动 -->
+		</div>
+		<footer>
+			<button>确认</button>
+		</footer>
+	</div>
+	<script type="text/javascript" src="./Js/jquery.min.js"></script>
+	<script type="text/javascript" src="./Js/iscroll4.js"></script>
+	<script type="text/javascript">
+	// iScroll
+	var myScroll;
+  	window.onload = function(){
+		myScroll = new iScroll('main', { checkDOMChanges: true });
+	
+	}
+
+	$(document).ready(function() {
+                    var cicle = cle = function() {
+                        
+                        var oTx = $(".tx");
+
+                        var cicleTransform = function(num, old_num) {
+                            var b_l_a = $(".bar-left-an");
+                            var b_r_a = $(".bar-right-an");
+                            var c_num = num;
+                            if(c_num > 50) {
+                                b_r_a.css({
+                                    "transform": "rotate(45deg)",
+                                    "transition": "transform 1s linear"
+                                });
+                                setTimeout(function() {
+                                    b_l_a.css({
+                                        "transform": "rotate(" + (((c_num-50)/100*360)-135) + "deg)",
+                                        "transition": "transform 1s linear"
+                                    });
+                                },1000);
+                            } else {
+                                if(old_num > 50) {
+                                    setTimeout(function() {
+                                        b_r_a.css({
+                                            "transform": "rotate(" + ((c_num/100*360)-135) + "deg)",
+                                            "transition": "transform 1s linear"
+                                        });
+                                    },1000);
+                                    b_l_a.css({
+                                        "transform": "rotate(-135deg)",
+                                        "transition": "transform 1s linear"
+                                    });
+                                } else {
+                                    b_r_a.css({
+                                        "transform": "rotate(" + ((c_num/100*360)-135) + "deg)",
+                                        "transition": "transform 1s linear"
+                                    });
+                                }
+                                
+                            }
+                        }
+
+                        var setnum = function(num) {
+                            oTx.text(num + "/"+num);
+                        }
+
+                        var getnum = function() {
+                            return parseInt(oTx.text());
+                        }
+
+                        var inputB = function() {
+                            $(document).ready(function() {
+                                var num = parseInt($.trim( $(this).val() ));
+                                num = "{$num}";//后台数据
+                                if(num>=0 && num <= 100){
+                                    cicleTransform(num, getnum());
+                                    setnum(num);
+                                }else{
+                                    alert("输入100以内的数值！");
+                                }
+                            });
+                        }
+                        
+                        return {
+                            init: function() {
+                                inputB();
+                            }
+                        }
+                    }();
+                    cicle.init();
+                });
+
+	</script>
+</body>
+</html>

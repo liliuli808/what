@@ -1,0 +1,20 @@
+[ 2018-01-16T18:21:12+08:00 ] ::1 /htdocs/index.php?g=Apis&m=order&a=orderSubmit
+ERR: [10001] No validate config_id
+[ 2018-01-16T18:21:12+08:00 ] ::1 /htdocs/index.php?g=Apis&m=order&a=orderSubmit
+NOTIC: [8] Undefined index: config_id D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 18 行.
+NOTIC: [8] Undefined index: openid D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 19 行.
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `yds_api_request_log` [ RunTime:0.0660s ]
+SQL: INSERT INTO `yds_api_request_log` (`config_id`,`openid`,`module_name`,`action_name`,`code`,`msg`,`request_time`,`request`,`return`,`request_microtime`,`return_microtime`,`use_microtime`,`ip`) VALUES ('0','','Order','orderSubmit','-1','','2018-01-16 18:21:12','[]','','1516098072.002895','0.00','0.00','::1') [ RunTime:0.0670s ]
+SQL: UPDATE `yds_api_request_log` SET `code`='10001',`msg`='No validate config_id',`return`='{\"code\":10001,\"msg\":\"No validate config_id\",\"data\":[]}',`return_microtime`='1516098072.408918',`use_microtime`='0.40602278709412' WHERE `id` = 7186 [ RunTime:0.0660s ]
+
+[ 2018-01-16T19:03:43+08:00 ] ::1 /htdocs/index.php?g=Apis&m=Order&a=getOrderDetail
+ERR: [10001] No validate config_id
+[ 2018-01-16T19:03:43+08:00 ] ::1 /htdocs/index.php?g=Apis&m=Order&a=getOrderDetail
+NOTIC: [8] Undefined index: config_id D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 18 行.
+NOTIC: [8] Undefined index: openid D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 19 行.
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `yds_api_request_log` [ RunTime:0.0570s ]
+SQL: INSERT INTO `yds_api_request_log` (`config_id`,`openid`,`module_name`,`action_name`,`code`,`msg`,`request_time`,`request`,`return`,`request_microtime`,`return_microtime`,`use_microtime`,`ip`) VALUES ('0','','Order','getOrderDetail','-1','','2018-01-16 19:03:42','[]','','1516100622.853796','0.00','0.00','::1') [ RunTime:0.0590s ]
+SQL: UPDATE `yds_api_request_log` SET `code`='10001',`msg`='No validate config_id',`return`='{\"code\":10001,\"msg\":\"No validate config_id\",\"data\":[]}',`return_microtime`='1516100623.269819',`use_microtime`='0.41602301597595' WHERE `id` = 7187 [ RunTime:0.0590s ]
+

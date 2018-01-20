@@ -1,0 +1,76 @@
+[ 2018-01-20T17:02:53+08:00 ] ::1 /htdocs/index.php?g=&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004001s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.002000s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: CONFIG_ID D:\wamp64\www\htdocs\application\Common\Controller\AdminbaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `yds_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yds_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `yds_role_user` [ RunTime:0.0150s ]
+SQL: SELECT `role_id` FROM yds_role_user a INNER JOIN yds_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0260s ]
+SQL: UPDATE `yds_users` SET `config_id`='0',`station_id`='0',`user_login`='admin',`user_pass`='###310ea1775f1ba62df5cdb6d1f2583636',`user_nicename`='admin',`user_email`='php20141104@163.com',`user_url`='',`avatar`=NULL,`sex`='1',`birthday`='2017-05-25',`signature`='',`last_login_ip`='0.0.0.0',`last_login_time`='2018-01-20 17:02:53',`create_time`='2017-05-25 05:08:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0100s ]
+
+[ 2018-01-20T17:11:02+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=doAddOrder
+ERR: [10001] No validate config_id
+[ 2018-01-20T17:11:02+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=doAddOrder
+NOTIC: [8] Undefined index: config_id D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 18 行.
+NOTIC: [8] Undefined index: openid D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 19 行.
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `yds_api_request_log` [ RunTime:0.0220s ]
+SQL: INSERT INTO `yds_api_request_log` (`config_id`,`openid`,`module_name`,`action_name`,`code`,`msg`,`request_time`,`request`,`return`,`request_microtime`,`return_microtime`,`use_microtime`,`ip`) VALUES ('0','','Order','doAddOrder','-1','','2018-01-20 17:11:02','{\"serverNum\":\"b1b231231321\",\"user\":\"\\u674e\\u5f66\\u535a\",\"tel\":\"15074685969\",\"detail\":\"10L\",\"stations\":\"7\",\"commity\":\"5\",\"nums\":\"1\",\"point\":\"116.311095,40.009133\"}','','1516439462.693650','0.00','0.00','::1') [ RunTime:0.0250s ]
+SQL: UPDATE `yds_api_request_log` SET `code`='10001',`msg`='No validate config_id',`return`='{\"code\":10001,\"msg\":\"No validate config_id\",\"data\":{\"serverNum\":\"b1b231231321\",\"user\":\"\\u674e\\u5f66\\u535a\",\"tel\":\"15074685969\",\"detail\":\"10L\",\"stations\":\"7\",\"commity\":\"5\",\"nums\":\"1\",\"point\":\"116.311095,40.009133\"}}',`return_microtime`='1516439462.748653',`use_microtime`='0.055002927780151' WHERE `id` = 7266 [ RunTime:0.0390s ]
+
+[ 2018-01-20T17:11:58+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=doAddOrder
+ERR: [10001] No validate config_id
+[ 2018-01-20T17:11:58+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=doAddOrder
+NOTIC: [8] Undefined index: config_id D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 18 行.
+NOTIC: [8] Undefined index: openid D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 19 行.
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `yds_api_request_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `yds_api_request_log` (`config_id`,`openid`,`module_name`,`action_name`,`code`,`msg`,`request_time`,`request`,`return`,`request_microtime`,`return_microtime`,`use_microtime`,`ip`) VALUES ('0','','Order','doAddOrder','-1','','2018-01-20 17:11:58','{\"serverNum\":\"bc11234564622\",\"user\":\"2\",\"tel\":\"15074685969\",\"detail\":\"21\",\"stations\":\"7\",\"commity\":\"5\",\"nums\":\"1\",\"point\":\"116.311095,40.009133\"}','','1516439518.739856','0.00','0.00','::1') [ RunTime:0.0130s ]
+SQL: UPDATE `yds_api_request_log` SET `code`='10001',`msg`='No validate config_id',`return`='{\"code\":10001,\"msg\":\"No validate config_id\",\"data\":{\"serverNum\":\"bc11234564622\",\"user\":\"2\",\"tel\":\"15074685969\",\"detail\":\"21\",\"stations\":\"7\",\"commity\":\"5\",\"nums\":\"1\",\"point\":\"116.311095,40.009133\"}}',`return_microtime`='1516439518.760857',`use_microtime`='0.021001100540161' WHERE `id` = 7267 [ RunTime:0.0410s ]
+
+[ 2018-01-20T17:14:42+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=doAddOrder
+ERR: [10001] No validate config_id
+[ 2018-01-20T17:14:43+08:00 ] ::1 /htdocs/index.php?g=Admin&m=Order&a=doAddOrder
+NOTIC: [8] Undefined index: config_id D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 18 行.
+NOTIC: [8] Undefined index: openid D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 19 行.
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp64\www\htdocs\application\Apis\Controller\ApiController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `yds_api_request_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `yds_api_request_log` (`config_id`,`openid`,`module_name`,`action_name`,`code`,`msg`,`request_time`,`request`,`return`,`request_microtime`,`return_microtime`,`use_microtime`,`ip`) VALUES ('0','','Order','doAddOrder','-1','','2018-01-20 17:14:42','{\"serverNum\":\"bc1123456462222\",\"user\":\"123\",\"tel\":\"21\",\"detail\":\"1\",\"stations\":\"6\",\"commity\":\"5\",\"nums\":\"2\",\"point\":\"116.468337,39.939382\"}','','1516439682.930247','0.00','0.00','::1') [ RunTime:0.0480s ]
+SQL: UPDATE `yds_api_request_log` SET `code`='10001',`msg`='No validate config_id',`return`='{\"code\":10001,\"msg\":\"No validate config_id\",\"data\":{\"serverNum\":\"bc1123456462222\",\"user\":\"123\",\"tel\":\"21\",\"detail\":\"1\",\"stations\":\"6\",\"commity\":\"5\",\"nums\":\"2\",\"point\":\"116.468337,39.939382\"}}',`return_microtime`='1516439682.984250',`use_microtime`='0.054003000259399' WHERE `id` = 7268 [ RunTime:0.0420s ]
+
+[ 2018-01-20T17:50:44+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: Identifier "template_message" is not defined.
+
+[ 2018-01-20T17:50:45+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: Identifier "template_message" is not defined.
+
+[ 2018-01-20T17:51:01+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: Identifier "template_message" is not defined.
+
+[ 2018-01-20T17:53:46+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-20T18:05:25+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-20T18:05:26+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-20T18:10:19+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-20T18:11:06+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-20T18:21:20+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-20T18:21:33+08:00 ] ::1 /htdocs/index.php?g=admin&m=Wecha&a=getAll
+ERR: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+

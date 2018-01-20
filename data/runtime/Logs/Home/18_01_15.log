@@ -1,0 +1,169 @@
+[ 2018-01-15T08:12:40+08:00 ] 140.207.54.80 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=267603b5cf04dfb7d0e01b7bd42c40a06df08777&timestamp=1515975160&nonce=1684051654&openid=oWBlRwtTmYoaMOUipArv9NdIc_4Y
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwtTmYoaMOUipArv9NdIc_4Y]]></FromUserName>
+<CreateTime>1515975160</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://h5.youzan.com/v2/showcase/homepage?alias=pG9DEnrw4W&sf=wx_menu]]></EventKey>
+<MenuId>509676757</MenuId>
+</xml>
+[ 2018-01-15T08:12:40+08:00 ] 140.207.54.80 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=267603b5cf04dfb7d0e01b7bd42c40a06df08777&timestamp=1515975160&nonce=1684051654&openid=oWBlRwtTmYoaMOUipArv9NdIc_4Y
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwtTmYoaMOUipArv9NdIc_4Y' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2018-01-15T09:51:57+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=94251b78a6bfe892d216d73c5819413bde1c515d&timestamp=1515981117&nonce=312902015&openid=oWBlRwgYxwDPoHEOoiYkEi8AXimU
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwgYxwDPoHEOoiYkEi8AXimU]]></FromUserName>
+<CreateTime>1515981117</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.953732</Latitude>
+<Longitude>116.115524</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+[ 2018-01-15T09:51:58+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=94251b78a6bfe892d216d73c5819413bde1c515d&timestamp=1515981117&nonce=312902015&openid=oWBlRwgYxwDPoHEOoiYkEi8AXimU
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwgYxwDPoHEOoiYkEi8AXimU' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_access_token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yds_wechat_access_token` WHERE `config_id` = 6 AND `expire_time` > 1515981117 ORDER BY expire_time desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: INSERT INTO `yds_wechat_access_token` (`config_id`,`token`,`expire_time`) VALUES ('6','5_uJB5ixJDY5N30lhbn8LRWgDv9tUQYI6utLj3tixFLj_bc4Ntmv-clxWPnrgPpWxD4sJI-jLr6yy7eeBS8G7b7-xXzaBfYJDJiE3a3WqjkDLDLCCExHRMCq-g1940y74mFXoJjkk-T4reBpYwGLTiAFAVAI','1515988318') [ RunTime:0.0301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2018-01-15T09:52:01+08:00 ] 140.207.54.75 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=88ce090c48036c487f94965ad9569851180fea60&timestamp=1515981121&nonce=2052006709&openid=oWBlRwgYxwDPoHEOoiYkEi8AXimU
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwgYxwDPoHEOoiYkEi8AXimU]]></FromUserName>
+<CreateTime>1515981121</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[ 2018-01-15T09:52:01+08:00 ] 140.207.54.75 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=88ce090c48036c487f94965ad9569851180fea60&timestamp=1515981121&nonce=2052006709&openid=oWBlRwgYxwDPoHEOoiYkEi8AXimU
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwgYxwDPoHEOoiYkEi8AXimU' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_access_token` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yds_wechat_access_token` WHERE `config_id` = 6 AND `expire_time` > 1515981121 ORDER BY expire_time desc LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8192] Function call_user_method() is deprecated /data/home/byu3181120001/htdocs/application/Common/Lib/Wechat.class.php 第 590 行.
+SQL: UPDATE `yds_wechat_user` SET `station_id`='0',`subscribe`='0' WHERE `openid` = 'oWBlRwgYxwDPoHEOoiYkEi8AXimU' [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2018-01-15T11:26:37+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=9c8c15b9c88ba87d8be9aa5c0c33ebce4edae73f&timestamp=1515986797&nonce=347175169&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwvXzJf_F6ZnF-t3w7qkP55s]]></FromUserName>
+<CreateTime>1515986797</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+[ 2018-01-15T11:26:38+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=9c8c15b9c88ba87d8be9aa5c0c33ebce4edae73f&timestamp=1515986797&nonce=347175169&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwvXzJf_F6ZnF-t3w7qkP55s' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_access_token` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yds_wechat_access_token` WHERE `config_id` = 6 AND `expire_time` > 1515986797 ORDER BY expire_time desc LIMIT 1   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined offset: 1 /data/home/byu3181120001/htdocs/application/Common/Lib/Wechat.class.php 第 570 行.
+NOTIC: [8192] Function call_user_method() is deprecated /data/home/byu3181120001/htdocs/application/Common/Lib/Wechat.class.php 第 579 行.
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwvXzJf_F6ZnF-t3w7qkP55s' LIMIT 1   [ RunTime:0.0015s ]
+SQL: INSERT INTO `yds_wechat_user` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`unionid`,`remark`,`groupid`,`tagid_list`,`config_id`,`path`) VALUES ('1','oWBlRwvXzJf_F6ZnF-t3w7qkP55s','0','1','zh_CN','','','贝宁','http://wx.qlogo.cn/mmopen/IAtIb6FFrw7icHBo6Il31tzlAaBW0hHpUbzDargrS1XW2IOQBfKu6ZK7D0nj3DmGol80ria077kBrlvAaAMzuictmktLGsR8EDE/132','1515986797','0','','0','[]','6','0-') [ RunTime:0.0123s ]
+SQL: SELECT * FROM `yds_wechat_access_token` WHERE `config_id` = 6 AND `expire_time` > 1515986797 ORDER BY expire_time desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: UPDATE `yds_wechat_user` SET `qr_code`='https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQEG8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyMUFWVjVab3BkaDIxRktJM3hxMUoAAgRuH1xaAwQAjScA',`path`='0-188' WHERE `id` = 188 [ RunTime:0.0136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2018-01-15T11:26:42+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=4ca5800201bbf71e16312f8e51e6fd6d126a2518&timestamp=1515986802&nonce=1617781365&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwvXzJf_F6ZnF-t3w7qkP55s]]></FromUserName>
+<CreateTime>1515986802</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.851215</Latitude>
+<Longitude>116.417679</Longitude>
+<Precision>16.000000</Precision>
+</xml>
+[ 2018-01-15T11:26:42+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=4ca5800201bbf71e16312f8e51e6fd6d126a2518&timestamp=1515986802&nonce=1617781365&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwvXzJf_F6ZnF-t3w7qkP55s' LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2018-01-15T11:26:44+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=a34e4c11c586b42bbaa8f4f222d94172705890a1&timestamp=1515986804&nonce=871788603&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwvXzJf_F6ZnF-t3w7qkP55s]]></FromUserName>
+<CreateTime>1515986804</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://h5.youzan.com/v2/showcase/homepage?alias=pG9DEnrw4W&sf=wx_menu]]></EventKey>
+<MenuId>509676757</MenuId>
+</xml>
+[ 2018-01-15T11:26:44+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=a34e4c11c586b42bbaa8f4f222d94172705890a1&timestamp=1515986804&nonce=871788603&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwvXzJf_F6ZnF-t3w7qkP55s' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2018-01-15T11:29:13+08:00 ] 140.207.54.75 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=bb05ef4f8e1f6d332dc5d592571c2b4aec05b510&timestamp=1515986952&nonce=1917755722&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwvXzJf_F6ZnF-t3w7qkP55s]]></FromUserName>
+<CreateTime>1515986952</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.851265</Latitude>
+<Longitude>116.417473</Longitude>
+<Precision>24.000000</Precision>
+</xml>
+[ 2018-01-15T11:29:13+08:00 ] 140.207.54.75 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=bb05ef4f8e1f6d332dc5d592571c2b4aec05b510&timestamp=1515986952&nonce=1917755722&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwvXzJf_F6ZnF-t3w7qkP55s' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2018-01-15T11:29:56+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=528fc7e5ad7a2a375754ab03c5fd90436c7faed2&timestamp=1515986996&nonce=1309997333&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+INFO: Request $GLOBALS['HTTP_RAW_POST_DATA']: <xml><ToUserName><![CDATA[gh_4d684aed55b7]]></ToUserName>
+<FromUserName><![CDATA[oWBlRwvXzJf_F6ZnF-t3w7qkP55s]]></FromUserName>
+<CreateTime>1515986996</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.851261</Latitude>
+<Longitude>116.417473</Longitude>
+<Precision>16.000000</Precision>
+</xml>
+[ 2018-01-15T11:29:56+08:00 ] 140.207.54.76 /index.php?g=Home&m=Wechat&a=index&config_id=6&signature=528fc7e5ad7a2a375754ab03c5fd90436c7faed2&timestamp=1515986996&nonce=1309997333&openid=oWBlRwvXzJf_F6ZnF-t3w7qkP55s
+NOTIC: [2048] Only variables should be passed by reference /data/home/byu3181120001/htdocs/application/Home/Controller/WechatController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `yds_wechat_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yds_wechat_config` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yds_wechat_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yds_wechat_user` WHERE `openid` = 'oWBlRwvXzJf_F6ZnF-t3w7qkP55s' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001023s ]
+

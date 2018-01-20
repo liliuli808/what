@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>提交订单</title>
+    <link rel="stylesheet" href="./Css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/common.css" type="text/css">
+    <link rel="stylesheet" href="./Css/G.css" type="text/css">
+    <link rel="stylesheet" href="./Css/order-submit.css" type="text/css">
+</head>
+<body>
+<div id="page-container">
+    <div id="page-title-panel">
+        <div class="col-8-1">
+            <i class="fa fa-angle-left" id="page-back" data-url="index.html"></i>
+        </div>
+        <div class="col-8-6" id="page-title">提交订单</div>
+        <div class="col-8-1"></div>
+    </div>
+    <div class="order-address-panel data-url" data-url="address-list.html#from=order-submit.html">
+        <div id="no-address-tip" class="col-8-6 col-8-1-offset">
+            您还没有添加地址，点击此处添加
+        </div>
+        <div class="col-8-1" id="create-address">
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+    <div class="order-address-panel data-url" data-url="address-list.html#from=order-submit.html">
+        <div id="order-address-info" class="col-10-9">
+            <div class="row">
+                <div class="col-10-3"><i class="fa fa-user"></i><span id="address-name"></span></div>
+                <div class="col-5-3"><i class="fa fa-phone"></i><span id="address-tel"></span></div>
+            </div>
+            <div class="row"><i class="fa fa-map-marker"></i><span id="address-detail"></span></div>
+        </div>
+        <div class="col-10-1" id="select-address">
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+    <div id="order-info-panel">
+        <div id="order-goods-panel"></div>
+        <!--<div id="order-bucket-panel">-->
+            <!--<div class="col-2-1">-->
+                <!--押水桶-->
+                <!--<span id="bucket-info">-->
+                    <!--<i class="fa fa-question-circle"></i>押桶须知-->
+                <!--</span>-->
+            <!--</div>-->
+            <!--<div class="col-2-1">-->
+                <!--<div class="col-3-2" id="bucket-operate">-->
+                    <!--<i class="fa fa-plus" id="bucket-plus"></i>-->
+                    <!--<span id="bucket-num">0</span>-->
+                    <!--<i class="fa fa-minus" id="bucket-minus"></i>-->
+                <!--</div>-->
+                <!--<div class="col-3-1" id="order-bucket-price">¥0.00</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div id="order-total-panel">
+            <span id="order-total">订单合计： <span id="order-total-price" class="order-total-price">¥0.00</span></span>
+        </div>
+    </div>
+    <div class="order-submit-hr">支付方式</div>
+    <div id="order-submit-payment-panel">
+        <div class="payment-item">
+            <div class="col-10-9">
+                <i class="fa fa-wechat"></i>微信支付
+            </div>    
+            <div class="col-10-1">
+                <i class="fa fa-circle-o"></i>
+            </div>
+        </div>
+        <div class="payment-item">
+            <div class="col-10-9">
+                <i class="fa fa-credit-card"></i>现金支付
+            </div>    
+            <div class="col-10-1">
+                <i class="fa fa-circle-o"></i>
+            </div>
+        </div>
+    </div>
+    <div id="order-deliver-panel">
+        <div class="order-label col-10-2">配送时间</div>
+        <div id="order-deliver" class="col-10-7">1小时内配送</div>
+        <div class="col-10-1 order-label-operate">
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+    <div id="order-ticket-panel" class="data-url" data-url="order-ticket.html#from=order-submit.html">
+        <div class="order-label col-10-2">水票使用</div>
+        <div id="order-ticket" class="col-10-7">本次未使用水票</div>
+        <div class="col-10-1 order-label-operate">
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+    <div id="order-comment-panel" style="margin-bottom: 5rem;">
+        <div class="order-label col-10-2">备注</div>
+        <div id="order-comment" class="col-10-7" contenteditable="true"></div>
+        <div class="col-10-1 order-label-operate">
+            <!-- <i class="fa fa-angle-right"></i> -->
+        </div>
+    </div>
+    <div id="order-pay-panel">
+        <div id="order-pay-info" class="col-5-3">共计 <span class="order-total-price">¥0.00</span></div>
+        <div id="order-pay-btn" class="col-5-2">去结算<i class="fa fa-angle-right"></i></div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="./Js/jquery.min.js"></script>
+<script type="text/javascript" src="./Js/G.js"></script>
+<script type="text/javascript" src="./Js/Api.js"></script>
+<script type="text/javascript" src="./Js/Cart.js"></script>
+<script type="text/javascript" src="./Js/Common.js"></script>
+<script type="text/javascript" src="./Js/order-submit.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</html>

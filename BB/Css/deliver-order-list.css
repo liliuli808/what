@@ -1,0 +1,47 @@
+body{
+	background-color: #f5f8f9;
+}
+#order-container-panel{
+	float: left;
+	width: 100%;
+}
+.order-item{
+	float: left;
+	width: 92%;
+	padding: 0 4%;
+	background-color: white;
+	font-size: 0.9rem;
+	margin-bottom: 0.5rem;
+	color: #888888;
+}
+.order-item .row{
+	border-bottom: 1px solid #f1f2f3;
+}
+.order-item .row:last-child{
+	border-bottom-width: 0;
+}
+.order-label{
+	float: left;
+	width: 25%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+.order-sn{
+	float: left;
+}
+.order-status{
+	float: right;
+	color: red;
+}
+.order-value{
+	float: left;
+	width: 75%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+}
+.order-address{
+	float: left;
+	margin: 0.5rem 0;
+	line-height: 1.5rem;
+	height: auto;
+}
